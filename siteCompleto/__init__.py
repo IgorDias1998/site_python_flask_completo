@@ -19,4 +19,4 @@ loginmanager = LoginManager(app)
 loginmanager.login_view = 'login'
 loginmanager.login_message_category = 'alert-info'
 
-from siteCompleto import route
+from siteCompleto import routes
