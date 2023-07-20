@@ -7,7 +7,6 @@ import sqlalchemy
 
 app = Flask(__name__)
 
-
 app.config['SECRET_KEY'] = '84c8d62895eb539ef7f44fe1289b3b2a'
 if os.getenv('DATABASE_URL'):
     app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL')
